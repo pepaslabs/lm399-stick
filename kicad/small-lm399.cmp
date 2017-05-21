@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sat 20 May 2017 11:57:02 PM CDT
+
+BeginCmp
+TimeStamp = /5920E74C;
+Reference = C1;
+ValeurCmp = 0.1uF;
+IdModule  = CERCAP_2_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E663;
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = CERCAP_2_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E5B4;
+Reference = C3;
+ValeurCmp = 10nF;
+IdModule  = CERCAP_2_059A;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210E35;
+Reference = P1;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210E3D;
+Reference = P2;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210E43;
+Reference = P3;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210E5B;
+Reference = P4;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210E61;
+Reference = P5;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59211E04;
+Reference = P6;
+ValeurCmp = CONN_2X1;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210D5C;
+Reference = P7;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /59210DD6;
+Reference = P8;
+ValeurCmp = CONN_1X1;
+IdModule  = SIL-1;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E5F0;
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E4D8;
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E54D;
+Reference = R3;
+ValeurCmp = 6k8;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E49C;
+Reference = U1;
+ValeurCmp = LM399A;
+IdModule  = TO-46-PLASTIC;
+EndCmp
+
+BeginCmp
+TimeStamp = /5920E4AB;
+Reference = U2;
+ValeurCmp = OP07;
+IdModule  = DIP8_059A_PL;
+EndCmp
+
+EndListe
