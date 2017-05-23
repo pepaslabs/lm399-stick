@@ -92,8 +92,8 @@ def solve(rf, rg, rz, vz_nom, vos, verbose=True):
         iz = irz            # iz is the current through the LM399
 
         # now update vz based on the updated circuit and loop if we haven't converged yet
-        # assume a 1uA deviation from the 1mA nominal zener current will cause a 1uV shift in vz.
-        new_vz = vz_nom + (iz - 0.001)
+        # assume a 1uA deviation from the 1mA nominal zener current will cause a 0.7uV shift in vz.
+        new_vz = vz_nom + ((iz * 0.7) - 0.001)
         delta_vz = abs(new_vz - vz)
         if verbose: print "delta_vz: %0.16f" % delta_vz
         if delta_vz > 0:
