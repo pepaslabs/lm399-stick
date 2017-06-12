@@ -1,6 +1,6 @@
-update=Sun 21 May 2017 12:41:56 AM CDT
+update=Thu 25 May 2017 07:30:00 PM CDT
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -47,6 +47,8 @@ LibDir=parts
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=parts
@@ -106,5 +108,3 @@ LibName47=opto
 LibName48=atmel
 LibName49=contrib
 LibName50=valves
-[general]
-version=1
