@@ -3,7 +3,7 @@
   (general
     (links 25)
     (no_connects 0)
-    (area 145.999999 116.789999 237.540001 190.550001)
+    (area 161.383134 133.9088 211.996866 153.1112)
     (thickness 1.6)
     (drawings 31)
     (tracks 124)
@@ -454,7 +454,7 @@
     (fp_text reference C3 (at -2.54 -1.905) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
-    (fp_text value 10nF (at 2.54 -1.905) (layer F.SilkS)
+    (fp_text value 0.1uF (at 2.54 -1.905) (layer F.SilkS)
       (effects (font (size 0.635 0.635) (thickness 0.127)))
     )
     (fp_line (start 3.81 -1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.254))
