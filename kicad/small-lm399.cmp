@@ -1,7 +1,7 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sat 20 May 2017 11:57:02 PM CDT
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 10 Sep 2017 03:35:56 PM CDT
 
 BeginCmp
-TimeStamp = /5920E74C;
+TimeStamp = /59B5A11C;
 Reference = C1;
 ValeurCmp = 0.1uF;
 IdModule  = CERCAP_2_059A;
@@ -22,59 +22,10 @@ IdModule  = CERCAP_2_059A;
 EndCmp
 
 BeginCmp
-TimeStamp = /59210E35;
+TimeStamp = /59B59D76;
 Reference = P1;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /59210E3D;
-Reference = P2;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /59210E43;
-Reference = P3;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /59210E5B;
-Reference = P4;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /59210E61;
-Reference = P5;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /59211E04;
-Reference = P6;
-ValeurCmp = CONN_2X1;
-IdModule  = SIL-2;
-EndCmp
-
-BeginCmp
-TimeStamp = /59210D5C;
-Reference = P7;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
-EndCmp
-
-BeginCmp
-TimeStamp = /59210DD6;
-Reference = P8;
-ValeurCmp = CONN_1X1;
-IdModule  = SIL-1;
+ValeurCmp = CONN_5X1;
+IdModule  = 4455-N2-5;
 EndCmp
 
 BeginCmp
