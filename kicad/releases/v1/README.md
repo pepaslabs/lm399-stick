@@ -1,8 +1,8 @@
 ## lm399-stick v1
 
-![](top.png)
+![](top-large.png)
 
-![](bottom.png)
+![](bottom-large.png)
 
 Schematic: [pdf](lm399-stick.pdf)
 
