@@ -55,7 +55,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 mar 2018"
+Date "28 apr 2018"
 Rev ""
 Comp ""
 Comment1 ""
@@ -383,7 +383,7 @@ $EndComp
 Wire Wire Line
 	5900 4250 5900 4100
 Text Notes 750  950  0    200  ~ 40
-LM399 on a stick! (v1)
+LM399 on a stick! (v1.1)
 Text Notes 750  1200 0    100  ~ 20
 See github.com/pepaslabs/lm399-stick
 $EndSCHEMATC
