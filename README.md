@@ -2,4 +2,4 @@
 
 LM399, on a stick!!!
 
-Latest release: [v1](kicad/releases/v1)
+Latest release: [v1](kicad/releases/v1.1)

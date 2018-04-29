@@ -3,9 +3,9 @@
   (general
     (links 25)
     (no_connects 0)
-    (area 163.144999 135.204999 211.505001 151.815001)
+    (area 160.203445 133.731 212.753222 153.289)
     (thickness 1.6)
-    (drawings 31)
+    (drawings 32)
     (tracks 124)
     (zones 0)
     (modules 18)
@@ -60,7 +60,7 @@
     (mod_text_size 1 1)
     (mod_text_width 0.15)
     (pad_size 2.0066 2.0066)
-    (pad_drill 1.4224)
+    (pad_drill 1.524)
     (pad_to_mask_clearance 0)
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
@@ -561,25 +561,39 @@
       (xy -0.90932 1.3462)) (layer F.SilkS) (width 0.00254))
   )
 
-  (module 1pin_056_079 (layer F.Cu) (tedit 5AE41053) (tstamp 5AE410D2)
-    (at 165.1 137.16)
-    (descr "1 pin, 0.056\" drill, 0.079\" round pad")
-    (path /5ABAE8C1)
-    (fp_text reference P2 (at 0 -2.54) (layer F.SilkS) hide
+  (module 1pin_060_079 (layer F.Cu) (tedit 5AE64856) (tstamp 5AE65012)
+    (at 209.55 137.16)
+    (descr "1 pin, 0.060\" drill, 0.079\" round pad")
+    (path 1pin)
+    (fp_text reference H*** (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value CONN_1X1 (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.4224)
+    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.524)
       (layers *.Cu *.Mask F.SilkS)
-      (net 2 -Vz)
     )
   )
 
-  (module 1pin_056_079 (layer F.Cu) (tedit 5AE4110A) (tstamp 5AE410F5)
+  (module 1pin_060_079 (layer F.Cu) (tedit 5AE64856) (tstamp 5AE6501C)
+    (at 209.55 149.86)
+    (descr "1 pin, 0.060\" drill, 0.079\" round pad")
+    (path 1pin)
+    (fp_text reference H*** (at 0 -2.54) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+      (effects (font (size 1.016 1.016) (thickness 0.254)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.524)
+      (layers *.Cu *.Mask F.SilkS)
+    )
+  )
+
+  (module 1pin_060_079 (layer F.Cu) (tedit 5AE65019) (tstamp 5AE65026)
     (at 165.1 149.86)
-    (descr "1 pin, 0.056\" drill, 0.079\" round pad")
+    (descr "1 pin, 0.060\" drill, 0.079\" round pad")
     (path /5ABAE8B2)
     (fp_text reference P1 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
@@ -587,45 +601,31 @@
     (fp_text value CONN_1X1 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 2.0066 2.0066) (drill 1.4224)
+    (pad 1 thru_hole rect (at 0 0) (size 2.0066 2.0066) (drill 1.524)
       (layers *.Cu *.Mask F.SilkS)
       (net 6 Vcc)
     )
   )
 
-  (module 1pin_056_079 (layer F.Cu) (tedit 5AE41053) (tstamp 5AE418D2)
-    (at 209.55 149.86)
-    (descr "1 pin, 0.056\" drill, 0.079\" round pad")
-    (path 1pin)
-    (fp_text reference H*** (at 0 -2.54) (layer F.SilkS) hide
+  (module 1pin_060_079 (layer F.Cu) (tedit 5AE64856) (tstamp 5AE65036)
+    (at 165.1 137.16)
+    (descr "1 pin, 0.060\" drill, 0.079\" round pad")
+    (path /5ABAE8C1)
+    (fp_text reference P2 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value CONN_1X1 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.4224)
+    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.524)
       (layers *.Cu *.Mask F.SilkS)
+      (net 2 -Vz)
     )
   )
 
-  (module 1pin_056_079 (layer F.Cu) (tedit 5AE41053) (tstamp 5AE418DC)
-    (at 209.55 137.16)
-    (descr "1 pin, 0.056\" drill, 0.079\" round pad")
-    (path 1pin)
-    (fp_text reference H*** (at 0 -2.54) (layer F.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.254)))
-    )
-    (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide
-      (effects (font (size 1.016 1.016) (thickness 0.254)))
-    )
-    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.4224)
-      (layers *.Cu *.Mask F.SilkS)
-    )
-  )
-
-  (module 1pin_056_079 (layer F.Cu) (tedit 5AE41053) (tstamp 5AE418E6)
-    (at 187.96 141.605)
-    (descr "1 pin, 0.056\" drill, 0.079\" round pad")
+  (module 1pin_060_079 (layer F.Cu) (tedit 5AE64856) (tstamp 5AE65041)
+    (at 187.96 142.24)
+    (descr "1 pin, 0.060\" drill, 0.079\" round pad")
     (path /5ABAE8DF)
     (fp_text reference P4 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
@@ -633,15 +633,15 @@
     (fp_text value CONN_1X1 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.4224)
+    (pad 1 thru_hole circle (at 0 0) (size 2.0066 2.0066) (drill 1.524)
       (layers *.Cu *.Mask F.SilkS)
       (net 2 -Vz)
     )
   )
 
-  (module 1pin_056_079 (layer F.Cu) (tedit 5AE41173) (tstamp 5AE418F1)
+  (module 1pin_060_079 (layer F.Cu) (tedit 5AE65057) (tstamp 5AE6504C)
     (at 187.96 144.78)
-    (descr "1 pin, 0.056\" drill, 0.079\" round pad")
+    (descr "1 pin, 0.060\" drill, 0.079\" round pad")
     (path /5ABAE8D0)
     (fp_text reference P3 (at 0 -2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
@@ -649,12 +649,15 @@
     (fp_text value CONN_1X1 (at 0 2.54) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.254)))
     )
-    (pad 1 thru_hole rect (at 0 0) (size 2.0066 2.0066) (drill 1.4224)
+    (pad 1 thru_hole rect (at 0 0) (size 2.0066 2.0066) (drill 1.524)
       (layers *.Cu *.Mask F.SilkS)
       (net 1 +Vz)
     )
   )
 
+  (gr_text HEATER (at 180.975 149.86 90) (layer F.SilkS)
+    (effects (font (size 0.635 0.635) (thickness 0.127)))
+  )
   (gr_text +Vz (at 186.69 147.32) (layer F.SilkS)
     (effects (font (size 0.762 0.762) (thickness 0.1524)) (justify left))
   )
