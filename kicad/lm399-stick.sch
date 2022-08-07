@@ -55,7 +55,7 @@ $Descr USLetter 11000 8500
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "28 apr 2018"
+Date "7 aug 2022"
 Rev ""
 Comp ""
 Comment1 ""
@@ -85,14 +85,8 @@ F 3 "" H 3250 3100 30  0000 C CNN
 	1    3250 3100
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4450 3350 4300 3350
-Wire Wire Line
-	4450 2950 4450 3350
 NoConn ~ 4300 3250
 NoConn ~ 4300 3150
-Wire Wire Line
-	3700 3350 3600 3350
 $Comp
 L R_0W25_1PCT R3
 U 1 1 5920E54D
@@ -104,25 +98,6 @@ F 3 "" H 3250 4950 30  0000 C CNN
 	1    3250 4950
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	4000 2900 4000 2400
-Wire Wire Line
-	3250 2400 5600 2400
-Wire Wire Line
-	3250 2400 3250 2900
-Wire Wire Line
-	3250 3300 3250 4750
-Connection ~ 4000 2400
-Wire Wire Line
-	5900 4350 5900 4650
-Wire Wire Line
-	5900 5300 5900 5700
-Wire Wire Line
-	2900 2750 3250 2750
-Connection ~ 3250 2750
-Wire Wire Line
-	2900 3400 3250 3400
-Connection ~ 3250 3400
 $Comp
 L R_0W25_1PCT R1
 U 1 1 5920E5F0
@@ -134,14 +109,6 @@ F 3 "" H 5600 3100 30  0000 C CNN
 	1    5600 3100
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5600 2400 5600 2900
-Wire Wire Line
-	5600 3300 5600 4650
-Wire Wire Line
-	5600 5300 5600 5700
-Wire Wire Line
-	3250 5150 3250 5700
 $Comp
 L GND #PWR01
 U 1 1 5920E940
@@ -166,45 +133,12 @@ F 3 "~" H 4000 3250 50  0000 C CNN
 	1    4000 3250
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	3900 3600 3900 3700
-Wire Wire Line
-	3900 3700 3250 3700
-Connection ~ 3250 3700
-Wire Wire Line
-	4100 3600 4100 3700
-Wire Wire Line
-	4100 3700 5600 3700
-Connection ~ 5600 3700
 Text GLabel 5900 4100 1    40   Input ~ 0
 Vcc
-Wire Wire Line
-	4450 3100 4700 3100
-Wire Wire Line
-	4700 3100 4700 3150
-Connection ~ 4450 3100
-Wire Wire Line
-	4700 3450 4700 5700
-Wire Wire Line
-	5600 5700 4000 6050
-Wire Wire Line
-	4000 6050 3250 5700
-Wire Wire Line
-	4000 6050 5900 5700
-Wire Wire Line
-	4000 6050 4000 6400
-Connection ~ 4000 6050
-Wire Wire Line
-	3600 3350 3600 5700
 Text GLabel 5100 4500 0    40   Input ~ 0
 +Vz
 Text GLabel 5100 5450 0    40   Input ~ 0
 -Vz
-Connection ~ 5600 4600
-Wire Wire Line
-	3600 5700 4000 6050
-Wire Wire Line
-	4000 6050 4700 5700
 $Comp
 L C_FILM C1
 U 1 1 5ABAE594
@@ -217,16 +151,233 @@ F 3 "" H 5250 5000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C_FILM C4
-U 1 1 5ABAE5A1
-P 2900 3100
-F 0 "C4" H 2920 3160 30  0000 L BNN
-F 1 "10nF" H 2920 3040 30  0000 L TNN
-F 2 "" H 2938 2950 30  0000 C CNN
-F 3 "" H 2900 3100 60  0000 C CNN
-	1    2900 3100
+L CONN_1X1 P1
+U 1 1 5ABAE8B2
+P 8700 3850
+F 0 "P1" V 8700 3850 40  0000 C CNN
+F 1 "CONN_1X1" V 8800 3850 40  0000 C CNN
+F 2 "~" H 8750 3800 60  0000 C CNN
+F 3 "~" H 8750 3800 60  0000 C CNN
+	1    8700 3850
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_1X1 P2
+U 1 1 5ABAE8C1
+P 8700 4250
+F 0 "P2" V 8700 4250 40  0000 C CNN
+F 1 "CONN_1X1" V 8800 4250 40  0000 C CNN
+F 2 "~" H 8750 4200 60  0000 C CNN
+F 3 "~" H 8750 4200 60  0000 C CNN
+	1    8700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1X1 P3
+U 1 1 5ABAE8D0
+P 8700 5100
+F 0 "P3" V 8700 5100 40  0000 C CNN
+F 1 "CONN_1X1" V 8800 5100 40  0000 C CNN
+F 2 "~" H 8750 5050 60  0000 C CNN
+F 3 "~" H 8750 5050 60  0000 C CNN
+	1    8700 5100
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_1X1 P4
+U 1 1 5ABAE8DF
+P 8700 5500
+F 0 "P4" V 8700 5500 40  0000 C CNN
+F 1 "CONN_1X1" V 8800 5500 40  0000 C CNN
+F 2 "~" H 8750 5450 60  0000 C CNN
+F 3 "~" H 8750 5450 60  0000 C CNN
+	1    8700 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 8350 3850 0    40   Input ~ 0
+Vcc
+$Comp
+L GND #PWR02
+U 1 1 5ABAE8ED
+P 8350 4350
+F 0 "#PWR02" H 8350 4150 50  0001 C CNN
+F 1 "GND" H 8350 4250 40  0000 C CNN
+F 2 "" H 8350 4350 50  0000 C CNN
+F 3 "" H 8350 4350 50  0000 C CNN
+	1    8350 4350
+	-1   0    0    -1  
+$EndComp
+Text GLabel 8350 5100 0    40   Input ~ 0
++Vz
+Text GLabel 8350 5500 0    40   Input ~ 0
+-Vz
+Text GLabel 6900 2300 1    40   Input ~ 0
+Vcc
+$Comp
+L CONN_2X1 P5
+U 1 1 5ABB2046
+P 6100 4300
+F 0 "P5" V 6100 4300 40  0000 C CNN
+F 1 "CONN_2X1" V 6200 4300 40  0000 C CNN
+F 2 "~" H 6150 4300 60  0000 C CNN
+F 3 "~" H 6150 4300 60  0000 C CNN
+	1    6100 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 750  950  0    200  ~ 40
+LM399 on a stick! (v1.2)
+Text Notes 750  1200 0    100  ~ 20
+See github.com/pepaslabs/lm399-stick
+$Comp
+L R_0W25 R4
+U 1 1 62EEC390
+P 6900 2600
+F 0 "R4" V 6980 2600 40  0000 C CNN
+F 1 "1M" V 6900 2600 40  0000 C CNN
+F 2 "~" V 6830 2600 30  0000 C CNN
+F 3 "~" H 6900 2600 30  0000 C CNN
+	1    6900 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W25 R5
+U 1 1 62EEC39D
+P 6900 3100
+F 0 "R5" V 6980 3100 40  0000 C CNN
+F 1 "470k" V 6900 3100 40  0000 C CNN
+F 2 "~" V 6830 3100 30  0000 C CNN
+F 3 "~" H 6900 3100 30  0000 C CNN
+	1    6900 3100
+	-1   0    0    1   
+$EndComp
+$Comp
+L DIODE D1
+U 1 1 62EEC402
+P 6600 3250
+F 0 "D1" H 6600 3350 40  0000 C CNN
+F 1 "1N4148" H 6600 3150 40  0000 C CNN
+F 2 "~" H 6600 3250 60  0000 C CNN
+F 3 "~" H 6600 3250 60  0000 C CNN
+	1    6600 3250
+	0    1    1    0   
+$EndComp
+Text Notes 6550 3050 1    60   ~ 0
+Startup
+Text Notes 4300 3700 0    60   ~ 0
+6.95V
+Text Notes 4350 2400 0    60   ~ 0
+8V
+Text Notes 5600 4250 1    60   ~ 0
+1mA
+Text Notes 3250 4250 1    60   ~ 0
+1mA
+Text Notes 4000 2800 1    60   ~ 0
+2mA
+Text Notes 1150 4000 0    60   ~ 0
+Rf\n1k\n1k5\n2k2\n3k3\n4k7\n6k8\n10k
+Text Notes 1450 4000 0    60   ~ 0
+Rg\n6k8\n10k\n15k\n22k\n33k\n47k\n68k
+Text Notes 1750 4000 0    60   ~ 0
+Ig mA\n1.02\n0.70\n0.46\n0.32\n0.21\n0.15\n0.10
+Text Notes 2100 4000 0    60   ~ 0
+Iz mA\n1.02\n1.04\n1.02\n1.04\n0.99\n1.01\n1.02
+Text Notes 2950 1850 0    60   ~ 0
+For Rf, Rg and Rz, a 1% drift causes roughly 1ppm Vz error.\nThis is an attenuation of about 10,000:1.\nTherefore, 100ppm/K 1% metal film are sufficient.
+Text Notes 7150 3550 1    60   ~ 0
+Any approx. 1/3 divider will work
+$Comp
+L C_CER C2
+U 1 1 62EECABC
+P 6150 5000
+F 0 "C2" H 6170 5060 30  0000 L BNN
+F 1 "0.1uF" H 6170 4940 30  0000 L TNN
+F 2 "" H 6188 4850 30  0000 C CNN
+F 3 "" H 6150 5000 60  0000 C CNN
+	1    6150 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_CER C3
+U 1 1 62EECB6C
+P 4700 3300
+F 0 "C3" H 4720 3360 30  0000 L BNN
+F 1 "0.1uF" H 4720 3240 30  0000 L TNN
+F 2 "" H 4738 3150 30  0000 C CNN
+F 3 "" H 4700 3300 60  0000 C CNN
+	1    4700 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_CER C4
+U 1 1 62EECC0D
+P 2900 4950
+F 0 "C4" H 2920 5010 30  0000 L BNN
+F 1 "10nF" H 2920 4890 30  0000 L TNN
+F 2 "" H 2938 4800 30  0000 C CNN
+F 3 "" H 2900 4950 60  0000 C CNN
+	1    2900 4950
+	1    0    0    -1  
+$EndComp
+Text Notes 1150 3850 0    60   ~ 0
+Rf/Rg options for 1mA Iz:
+Text Notes 6300 4500 1    40   ~ 0
+Heater disable\n(jumper)
+Wire Wire Line
+	4450 3350 4300 3350
+Wire Wire Line
+	4450 2950 4450 3350
+Wire Wire Line
+	3700 3350 3600 3350
+Wire Wire Line
+	4000 2900 4000 2400
+Wire Wire Line
+	3250 2400 5600 2400
+Wire Wire Line
+	3250 2400 3250 2900
+Wire Wire Line
+	3250 3300 3250 4750
+Connection ~ 4000 2400
+Wire Wire Line
+	5900 4350 5900 4650
+Wire Wire Line
+	5900 5300 5900 5700
+Wire Wire Line
+	5600 2400 5600 2900
+Wire Wire Line
+	5600 3300 5600 4650
+Wire Wire Line
+	5600 5300 5600 5700
+Wire Wire Line
+	3250 5150 3250 5700
+Wire Wire Line
+	3900 3600 3900 3700
+Wire Wire Line
+	3900 3700 3250 3700
+Connection ~ 3250 3700
+Wire Wire Line
+	4100 3600 4100 3700
+Wire Wire Line
+	4100 3700 5600 3700
+Connection ~ 5600 3700
+Wire Wire Line
+	4450 3100 4700 3100
+Wire Wire Line
+	4700 3100 4700 3200
+Connection ~ 4450 3100
+Wire Wire Line
+	5600 5700 4000 6050
+Wire Wire Line
+	4000 6050 3250 5700
+Wire Wire Line
+	4000 6050 5900 5700
+Wire Wire Line
+	4000 6050 4000 6400
+Connection ~ 4000 6050
+Wire Wire Line
+	3600 3350 3600 5700
+Connection ~ 5600 4600
+Wire Wire Line
+	3600 5700 4000 6050
 Wire Wire Line
 	5500 4500 5600 4600
 Wire Wire Line
@@ -243,147 +394,58 @@ Wire Wire Line
 	5250 5150 5250 5450
 Connection ~ 5250 5450
 Wire Wire Line
-	2900 2950 2900 2750
-Wire Wire Line
-	2900 3250 2900 3400
-$Comp
-L C_FILM C3
-U 1 1 5ABAE73A
-P 4700 3300
-F 0 "C3" H 4720 3360 30  0000 L BNN
-F 1 "0.1uF" H 4720 3240 30  0000 L TNN
-F 2 "" H 4738 3150 30  0000 C CNN
-F 3 "" H 4700 3300 60  0000 C CNN
-	1    4700 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_FILM C2
-U 1 1 5ABAE740
-P 6150 5000
-F 0 "C2" H 6170 5060 30  0000 L BNN
-F 1 "0.1uF" H 6170 4940 30  0000 L TNN
-F 2 "" H 6188 4850 30  0000 C CNN
-F 3 "" H 6150 5000 60  0000 C CNN
-	1    6150 5000
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
 	5900 4600 6150 4600
 Wire Wire Line
-	6150 4600 6150 4850
+	6150 4600 6150 4900
 Connection ~ 5900 4600
 Wire Wire Line
-	6150 5150 6150 5350
+	6150 5100 6150 5350
 Wire Wire Line
 	6150 5350 5900 5350
 Connection ~ 5900 5350
-$Comp
-L CONN_1X1 P1
-U 1 1 5ABAE8B2
-P 7900 3800
-F 0 "P1" V 7900 3800 40  0000 C CNN
-F 1 "CONN_1X1" V 8000 3800 40  0000 C CNN
-F 2 "~" H 7950 3750 60  0000 C CNN
-F 3 "~" H 7950 3750 60  0000 C CNN
-	1    7900 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1X1 P2
-U 1 1 5ABAE8C1
-P 7900 4200
-F 0 "P2" V 7900 4200 40  0000 C CNN
-F 1 "CONN_1X1" V 8000 4200 40  0000 C CNN
-F 2 "~" H 7950 4150 60  0000 C CNN
-F 3 "~" H 7950 4150 60  0000 C CNN
-	1    7900 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1X1 P3
-U 1 1 5ABAE8D0
-P 7900 4650
-F 0 "P3" V 7900 4650 40  0000 C CNN
-F 1 "CONN_1X1" V 8000 4650 40  0000 C CNN
-F 2 "~" H 7950 4600 60  0000 C CNN
-F 3 "~" H 7950 4600 60  0000 C CNN
-	1    7900 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_1X1 P4
-U 1 1 5ABAE8DF
-P 7900 5050
-F 0 "P4" V 7900 5050 40  0000 C CNN
-F 1 "CONN_1X1" V 8000 5050 40  0000 C CNN
-F 2 "~" H 7950 5000 60  0000 C CNN
-F 3 "~" H 7950 5000 60  0000 C CNN
-	1    7900 5050
-	1    0    0    -1  
-$EndComp
-Text GLabel 7550 3800 0    40   Input ~ 0
-Vcc
-$Comp
-L GND #PWR02
-U 1 1 5ABAE8ED
-P 7550 4300
-F 0 "#PWR02" H 7550 4100 50  0001 C CNN
-F 1 "GND" H 7550 4200 40  0000 C CNN
-F 2 "" H 7550 4300 50  0000 C CNN
-F 3 "" H 7550 4300 50  0000 C CNN
-	1    7550 4300
-	-1   0    0    -1  
-$EndComp
-Text GLabel 7550 4650 0    40   Input ~ 0
-+Vz
-Text GLabel 7550 5050 0    40   Input ~ 0
--Vz
 Wire Wire Line
-	7700 3800 7550 3800
+	8500 3850 8350 3850
 Wire Wire Line
-	7700 4200 7550 4200
+	8500 4250 8350 4250
 Wire Wire Line
-	7550 4200 7550 4300
+	8350 4250 8350 4350
 Wire Wire Line
-	7700 4650 7550 4650
+	8500 5100 8350 5100
 Wire Wire Line
-	7700 5050 7550 5050
-$Comp
-L R_0W25_1PCT R4
-U 1 1 5ABAF866
-P 6050 3250
-F 0 "R4" V 6130 3250 40  0000 C CNN
-F 1 "200k" V 6050 3250 40  0000 C CNN
-F 2 "" V 5980 3250 30  0000 C CNN
-F 3 "" H 6050 3250 30  0000 C CNN
-	1    6050 3250
-	-1   0    0    -1  
-$EndComp
+	8500 5500 8350 5500
 Wire Wire Line
-	5600 3600 6050 3600
+	5600 3600 6600 3600
 Wire Wire Line
-	6050 3600 6050 3450
+	6600 3600 6600 3450
 Connection ~ 5600 3600
-Text GLabel 6050 2900 1    40   Input ~ 0
-Vcc
 Wire Wire Line
-	6050 3050 6050 2900
-$Comp
-L CONN_2X1 P5
-U 1 1 5ABB2046
-P 6100 4300
-F 0 "P5" V 6100 4300 40  0000 C CNN
-F 1 "CONN_2X1" V 6200 4300 40  0000 C CNN
-F 2 "~" H 6150 4300 60  0000 C CNN
-F 3 "~" H 6150 4300 60  0000 C CNN
-	1    6100 4300
-	1    0    0    -1  
-$EndComp
+	6600 2850 6600 3050
 Wire Wire Line
 	5900 4250 5900 4100
-Text Notes 750  950  0    200  ~ 40
-LM399 on a stick! (v1.1)
-Text Notes 750  1200 0    100  ~ 20
-See github.com/pepaslabs/lm399-stick
+Wire Wire Line
+	6900 2300 6900 2400
+Wire Wire Line
+	6900 2800 6900 2900
+Wire Wire Line
+	6900 2850 6600 2850
+Connection ~ 6900 2850
+Wire Wire Line
+	6900 3300 6900 5700
+Wire Wire Line
+	6900 5700 4000 6050
+Wire Wire Line
+	4700 3400 4700 3900
+Wire Wire Line
+	4700 3900 3600 3900
+Connection ~ 3600 3900
+Wire Wire Line
+	2900 4850 2900 4650
+Wire Wire Line
+	2900 4650 3250 4650
+Connection ~ 3250 4650
+Wire Wire Line
+	2900 5050 2900 5250
+Wire Wire Line
+	2900 5250 3250 5250
+Connection ~ 3250 5250
 $EndSCHEMATC

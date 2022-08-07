@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Sun 29 Apr 2018 06:22:00 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sat 06 Aug 2022 06:26:12 PM CDT
 
 BeginCmp
 TimeStamp = /5ABAE594;
@@ -8,24 +8,31 @@ IdModule  = ANYSSCAP_SMALL_2_059B_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5ABAE740;
+TimeStamp = /62EECABC;
 Reference = C2;
 ValeurCmp = 0.1uF;
 IdModule  = ANYSSCAP_SMALL_2_059B_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5ABAE73A;
+TimeStamp = /62EECB6C;
 Reference = C3;
 ValeurCmp = 0.1uF;
 IdModule  = ANYSSCAP_SMALL_2_059B_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5ABAE5A1;
+TimeStamp = /62EECC0D;
 Reference = C4;
 ValeurCmp = 10nF;
 IdModule  = ANYSSCAP_SMALL_2_059B_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /62EEC402;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = DIODE_SS_059A_03_PL;
 EndCmp
 
 BeginCmp
@@ -85,10 +92,17 @@ IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5ABAF866;
+TimeStamp = /62EEC390;
 Reference = R4;
-ValeurCmp = 200k;
-IdModule  = R_AXIAL_0W25_059A_PL;
+ValeurCmp = 1M;
+IdModule  = R_AXIAL_0W25_V_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /62EEC39D;
+Reference = R5;
+ValeurCmp = 470k;
+IdModule  = R_AXIAL_0W25_V_059A_PL;
 EndCmp
 
 BeginCmp
