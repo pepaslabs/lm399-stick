@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sat 06 Aug 2022 06:26:12 PM CDT
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Fri 26 Aug 2022 02:56:00 AM CDT
 
 BeginCmp
 TimeStamp = /5ABAE594;
@@ -26,13 +26,6 @@ TimeStamp = /62EECC0D;
 Reference = C4;
 ValeurCmp = 10nF;
 IdModule  = ANYSSCAP_SMALL_2_059B_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /62EEC402;
-Reference = D1;
-ValeurCmp = 1N4148;
-IdModule  = DIODE_SS_059A_03_PL;
 EndCmp
 
 BeginCmp
@@ -80,29 +73,15 @@ EndCmp
 BeginCmp
 TimeStamp = /5920E4D8;
 Reference = R2;
-ValeurCmp = 1k;
+ValeurCmp = 3k3;
 IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
 BeginCmp
 TimeStamp = /5920E54D;
 Reference = R3;
-ValeurCmp = 6k8;
+ValeurCmp = 22k;
 IdModule  = R_AXIAL_0W25_059A_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /62EEC390;
-Reference = R4;
-ValeurCmp = 1M;
-IdModule  = R_AXIAL_0W25_V_059A_PL;
-EndCmp
-
-BeginCmp
-TimeStamp = /62EEC39D;
-Reference = R5;
-ValeurCmp = 470k;
-IdModule  = R_AXIAL_0W25_V_059A_PL;
 EndCmp
 
 BeginCmp
